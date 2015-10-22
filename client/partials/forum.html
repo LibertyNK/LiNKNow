@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="./../CSS/forum.css">
 
 <div id="forum" ng-controller="forumController">
-    <img src="./img/logo_red.png" alt="logo clean" width=50 height=50>
+    <img src="./IMG/logo_red.png" alt="logo clean" width=50 height=50>
     <h2 id="forum_title">Forum</h2><br>
     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">New Post</button><br>
 
@@ -12,7 +12,7 @@
             <input type="checkbox" id="id{{post._id}}"   class="post">
             <div  class="plus"></div>
             <label  for="id{{post._id}}" class="title" ng-click="showComments($event); ">
-                    {{post.title}}   <span style="float:right; font-size:10px; font-weight:normal; "> </span><span am-time-ago="post.created_at" ></span> 
+                    {{post.title}}   <span style="float:right; font-size:10px; font-weight:normal; "> </span><span am-time-ago="post.created_at" ></span>
             </label>
 
             <div class="description"> <span class="name-span"> <strong>{{post.userName}}</strong></span>, LiNK Member: <br> {{post.description}} <hr>             </div>
