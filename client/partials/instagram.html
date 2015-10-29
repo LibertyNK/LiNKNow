@@ -1,4 +1,4 @@
-<div ng-controller="InstagramController">
+<!-- <div ng-controller="InstagramController"> -->
 <!--Gallery-->
     <section class="page-block" id="gallery">
         <div class="row page-header">
@@ -9,16 +9,18 @@
         <div class="row">
           <ul class="gallery">
             <li>
-                <img src="{{pictures.data[0].images.standard_resolution.url}}" alt="thumb01"/>
+                <img ng-src="{{pictures.data[0].images.standard_resolution.url}}" alt="thumb01"/>
+                <p ng-bind="testing"></p>
+                <p>{{testing}}</p>
             </li>
             <li>
-                <img src="{{pictures.data[1].images.standard_resolution.url}}" alt="thumb02"/>
+                <img ng-src="{{pictures.data[1].images.standard_resolution.url}}" alt="thumb02"/>
             </li>
             <li>
-                <img src="{{pictures.data[2].images.standard_resolution.url}}" alt="thumb03"/>
+                <img ng-src="{{pictures.data[2].images.standard_resolution.url}}" alt="thumb03"/>
             </li>
             <li>
-                <img src="{{pictures.data[3].images.standard_resolution.url}}" alt="thumb04"/>
+                <img ng-src="{{pictures.data[3].images.standard_resolution.url}}" alt="thumb04"/>
               </a>
             </li>
             <li>
@@ -36,4 +38,4 @@
           </ul>
       </div>
     </section>
-</div>
+<!-- </div> -->

@@ -74,7 +74,8 @@ html,body{
 
 #overlay {
 	/*position: absolute;*/
-	height: 252px;
+	/*height: 252px;*/
+	height: 450px;
 	width: 383px;
 	top: 200px;
 	bottom:0;
