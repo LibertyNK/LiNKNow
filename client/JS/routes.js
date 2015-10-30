@@ -68,7 +68,7 @@ link.controller("InstagramController", function($scope, InstagramFactory){
 		console.log("console logging the data");
 		// object = data;
 		$scope.pictures = "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAcQjRxqFQoTCLDw4J_W6MgCFYSUiAodQMgADg&url=http%3A%2F%2Fangularconnect.com%2F&psig=AFQjCNHbTHNAgUZ_UBxYxSHKUF5V30WkrA&ust=1446242219371032";;
-		$scope.testing = "string";
+		$scope.testing = "";
 		console.log("non working one", Date());
 		// $scope.testing = "This is a test";
 	})

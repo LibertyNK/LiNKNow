@@ -1,5 +1,6 @@
 // First at the top of your routes.js file you'll have to require the controller
 var http = require('http');
+var path = require('path');
 
 var posts = require('./../server/controllers/posts.js');
 var comments = require('./../server/controllers/comments.js');
@@ -25,7 +26,7 @@ module.exports = function(app) {
     	comments.show(req, res);
   	})
     app.get('/maps', function(req,res){
-      res.sendFile("./client/partials/maps.html")
+      res.sendFile(path.resolve(__dirname + "/../client/partials/maps.html"));
     })
 
   app.get('/contributions', function(req, res){
