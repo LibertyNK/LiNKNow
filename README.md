@@ -2,7 +2,7 @@
 
 LiNK now is a platform to connect rescue teams with each other and help raise funds for Libery in North Korea Organization.
 
-## Requirments
+## Requirement
 
 * [NodeJS & NPM](http://nodejs.org)
 * [MongoDB](http://www.mongodb.org)
